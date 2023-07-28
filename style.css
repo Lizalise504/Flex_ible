@@ -1,0 +1,22 @@
+.row{
+    height: 5em;
+    margin: 0.63em;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.col, .col-2, .col-3{
+    height: 3em;
+    flex: 1;
+    margin: 0.63em;
+    padding-top: 1em;
+    background-color: rgb(76, 76, 116);
+}
+.col-2{
+    flex: 2;
+    background-color: rgba(76, 76, 116, 0.726);
+}
+.col-3{
+    flex: 3;
+    background-color: rgba(76, 76, 116, 0.507);
+}
